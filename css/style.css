@@ -12118,7 +12118,7 @@ body.dark-scheme::-webkit-scrollbar-track,
 
 .de-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .de-flex>.de-flex-col {
