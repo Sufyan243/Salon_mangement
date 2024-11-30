@@ -87,44 +87,39 @@
                                 <p class="lead text-center">
                                 If you got any questions, please do not hestitae to send us a message.
                                 </p>
+                                <form name="contactForm" class="form-border position-relative z1000" method="post" action="contact_process.php">
+    <div class="row">
+        <div class="col-lg-12 mb10">
+            <div class="field-set">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+            </div>
+        </div>
+        <div class="col-lg-12 mb10">
+            <div class="field-set">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+            </div>
+        </div>
+        <div class="col-lg-12 mb10">
+            <div class="field-set">
+                <input type="tel" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
+            </div>
+        </div>
+    </div>
 
-                                <form name="contactForm" id="contact_form" class="form-border position-relative z1000" method="post" action="#">
-                                    <div class="row">
-                                        <div class="col-lg-12 mb10">
-                                            <div class="field-set">
-                                                <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 mb10">
-                                            <div class="field-set">
-                                                <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 mb10">
-                                            <div class="field-set">
-                                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                        
-                                    <div class="field-set mb20">
-                                        <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
-                                    </div>
-                                    
-                                    <div class="text-center">
-                                        <div class="g-recaptcha" data-sitekey="6LdW03QgAAAAAJko8aINFd1eJUdHlpvT4vNKakj6" align="center"></div>
-                                        <div id='submit' class="mt20">
-                                            <input type='submit' id='send_message' value='Send Message' class="btn-main">
-                                        </div>
-                                    </div>
+    <div class="field-set mb20">
+        <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
+    </div>
 
-                                    <div id="success_message" class='success'>
-                                        Your message has been sent successfully. Refresh this page if you want to send more messages.
-                                    </div>
-                                    <div id="error_message" class='error'>
-                                        Sorry there was an error sending your form.
-                                    </div>
-                                </form>
+    <div class="text-center">
+        <div id="submit" class="mt20">
+            <button type="submit" id="send_message" class="btn-main">Send Message</button>
+        </div>
+    </div>
+</form>
+
+
+
+
 
                                 <div class="d-deco"></div>
                             </div>
@@ -164,13 +159,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
     <script src='../../../www.google.com/recaptcha/api.js' async defer></script>
-    <script src="form.js"></script>
 
-    <script type="text/javascript">     
-        jQuery(function($){     
-            $( '.g-recaptcha' ).attr( 'data-theme', 'dark' );     
-        });     
-    </script>
     
 </body>
 
