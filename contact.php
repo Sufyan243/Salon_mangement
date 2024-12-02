@@ -58,7 +58,7 @@
                             <i class="fa fa-map-marker de-icon gradient de-hover-scale text-light mb20"></i>
                             <p class="lead no-bottom">Our Address</p>
                             <h4 class="s2">100 Mainstreet Center, NY</h4>
-                           
+        
                         </div>
                         <div class="col-lg-4 col-md-4 text-center">
                             <i class="fa fa-phone de-icon gradient de-hover-scale text-light mb20"></i>

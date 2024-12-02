@@ -36,7 +36,7 @@ try {
         <p><strong>Phone:</strong> $phone</p>
         <p><strong>Message:</strong> $message</p>
 
-  
+
     ";
 
     $mail->send();

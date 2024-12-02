@@ -37,13 +37,7 @@
               </li>
               <li><a class="menu-item" href="book.php">Book Appointment</a></li>
               <li><a class="menu-item" href="blog.php">Blog</a></li>
-              <li><a class="menu-item" href="#">Extras</a>
-                <ul>
-                  <li><a class="menu-item" href="contact.php">Contact</a></li>
-                  <li><a class="menu-item" href="gallery.php">Gallery</a></li>
-                  <li><a class="menu-item" href="pricing.php">Pricing</a></li>
-                  <li><a class="menu-item" href="testimonials.php">Testimonials</a></li>
-                </ul>
+              <li><a class="menu-item" href="contact.php">Contact</a></li>
               </li>
             </ul>
           </div>
